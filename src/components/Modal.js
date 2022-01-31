@@ -6,7 +6,7 @@ const Modal = ({ setIsOpen, handleClickAdd, handleTextTitleChange, handleTextDet
   }
   return (
     <div className="z-20 inset-0 bg-[#000] bg-opacity-40 overflow-auto fixed flex items-center justify-center" onClick={() => setIsOpen(false)}>
-      <div className="m-[16px] w-[500px] max-w-[92%] h-[310px] bg-white text-white z-20 rounded-[16px] flex flex-col animate-fade-in-down" onClick={(e) => { e.stopPropagation() }}>
+      <div className="m-[16px] w-[500px] max-w-[92%] bg-white text-white z-20 rounded-[16px] flex flex-col animate-fade-in-down" onClick={(e) => { e.stopPropagation() }}>
         <h4 className="m-0 p-[10px] text-[black] font-semibold text-[20px] text-center">Add A Note</h4>
         {/* </div> */}
         <h5 className="p-[5px] text-[16px] font-normal text-black text-center">
